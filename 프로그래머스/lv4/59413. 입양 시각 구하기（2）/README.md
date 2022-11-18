@@ -9,15 +9,10 @@
 >> ex> selet LEVEL from DUAL connect by LEVEL <= 10;
 >> CONNEVT BY LEVEL <= ?(숫자)를 사용하면 1부터 ?(숫자)까지 LEAVEL 값이 증가
 >> LEVEL = ROWNUM ()
->> 참고 :https://royzero.tistory.com/60  - 암시적 JOIN에 대한 설명
->> 참고 :https://madinthe90.tistory.com/25 - 계층형 쿼리 구문 LEVEL
 
->>SELECT A.HOUR, COUNT(B.HOUR)
->>FROM (SELECT ROWNUM-1 AS HOUR FROM DUAL CONNECT BY ROWNUM <=24) A, --lEVEL 대신 ROWNUM 사용가능
- >>    (SELECT TO_CHAR(DATETIME, 'HH24') AS HOUR FROM ANIMAL_OUTS) B
->> WHERE A.HOUR = B.HOUR(+) -- LEFT OUTER JOIN(왼쪽을 기준으로 오른쪽에 매칭되는 데이터가 없어도 표현해주는 방식)
->> GROUP BY A.HOUR          --  +괄호 부분 삭제 => equal 기호안에 LEFT OUTER JOIN 이라고 명시적으로 적어도 가능
->> ORDER BY A.HOUR  
+### 참고 1 : https://royzero.tistory.com/60  - 암시적 JOIN에 대한 설명
+### 참고 2 : https://madinthe90.tistory.com/25 - 계층형 쿼리 구문 LEVEL
+
 
 ### 구분
 
