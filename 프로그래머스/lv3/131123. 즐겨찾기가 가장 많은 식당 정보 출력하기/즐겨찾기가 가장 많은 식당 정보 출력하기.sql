@@ -1,4 +1,6 @@
--- 코드를 입력하세요
+-- SELECT 컬럼명 FROM 테이블명 WHERE NAME IN('홍상직,'홍길동') 
+-- WHERE절뒤에 컬럼명중 IN 괄호 안에 있는 값만출력 ( 반대로 NOT IN 을 사용하면 괄호안에 데이터값을 가지고 있지 않는 데이터만 출력됨)
+
 SELECT FOOD_TYPE,REST_ID,REST_NAME,FAVORITES FROM REST_INFO 
 WHERE (FOOD_TYPE,FAVORITES) IN
 (SELECT FOOD_TYPE,MAX(FAVORITES) FROM REST_INFO GROUP BY FOOD_TYPE)
