@@ -3,25 +3,25 @@
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131123) 
 
 ### 성능 요약
-> ###having 절과 where절의 차이
+>having 절과 where절의 차이
 having은 전체 결과, where은 개별 행
 Having절은 WHERE절과 비슷하지만 그룹 전체 즉, 그룹을 나타내는 결과 집합의 행에만 적용된다
 반면 WHERE절은 개별 행에 적용이 된다.
 
-> ###having은 SQL select문이 집계 값이 지정된 조건을 충족하는 행만 반환하도록 지정하는 SQL절이다.
+>having은 SQL select문이 집계 값이 지정된 조건을 충족하는 행만 반환하도록 지정하는 SQL절이다.
 where은 단일 테이블에서 데이터를 가져 오거나 여러 테이블과 결합하여 조건을 지정하는데 사용되는 SQL절이다.
 
-> ###having절은 그룹을 필터링하는 데 사용된다.
+>having절은 그룹을 필터링하는 데 사용된다.
 where절을 행을 필터링 하는데 사용된다.
 
-> ###집계 함수는 having 절과 함께 사용할 수 있다.
+>집계 함수는 having 절과 함께 사용할 수 있다.
 where절을 have절에 포함된 하위 쿼리에 있지않으면 집계함수와 함께 사용할 수 없다.
 (집계함수란, COUNT, MIN, MAX, SUM, AVG등등이 있다.)
 
-> ###having 절은 Group By 절 뒤에 사용합니다.
+>having 절은 Group By 절 뒤에 사용합니다.
 Where 절은 Group By 절 앞에 사용합니다.
 
-> ###간단 요약
+>간단 요약
 Having은 그룹화 또는 집계가 발생한 후 레코드를 필터링하는데 사용된다.
 Where은 그룹화 또는 집계가 발생하기 전에 레코드를 필터링하는데 사용된다.
 메모리: 0.0 MB, 시간: 0.00 ms
