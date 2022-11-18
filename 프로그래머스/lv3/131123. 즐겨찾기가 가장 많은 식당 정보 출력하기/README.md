@@ -2,9 +2,8 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131123) 
 
-### 성능 요약
->having 절과 where절의 차이
-having은 전체 결과, where은 개별 행
+### having 절과 where절의 차이
+>having은 전체 결과, where은 개별 행
 Having절은 WHERE절과 비슷하지만 그룹 전체 즉, 그룹을 나타내는 결과 집합의 행에만 적용된다
 반면 WHERE절은 개별 행에 적용이 된다.
 
