@@ -2,7 +2,7 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/59413?language=oracle) 
 
-### 성능 요약
+### 설명
 
 >> 더미테이블 DUAL : 단순계산, 산술연산,함수 결과등 쿼리 결과를 손쉽게 확인해볼 수 있는 임시테이블
 >>LEVEL 계층형 쿼리에서 자주쓰는 CONNECT BY절에서 LEVEL을 수용하면,원하는 행을 리턴(LEVEL을 사용하여 FOR문처럼 활용가능)
