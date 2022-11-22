@@ -2,10 +2,11 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/59043) 
 
-### 성능 요약
-
-메모리: 0.0 MB, 시간: 0.00 ms
-
+### 풀이 방법
+>>EX1 (ON절 이용) > (ANSI JOIN) 국제적 표준 조인 방법
+EX 2.(USING 이용) > (ANSI JOIN) 국제적 표준 조인 방법
+EX 3> 암묵적 조인 (FROM절에 JOIN 생략 쉼표(,)구분 , 및 ON,USING절 => WHERE절에 명시 )
+EX 4> Subquery -서브쿼리 이용
 ### 구분
 
 코딩테스트 연습 > JOIN
