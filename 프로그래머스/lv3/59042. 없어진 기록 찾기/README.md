@@ -2,9 +2,11 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/59042) 
 
-### 성능 요약
+### 방법 요약
 
-메모리: 0.0 MB, 시간: 0.00 ms
+1.LEFT JOIN
+2.RIGHT JOIN
+3.MINUS 연산자
 
 ### 구분
 
