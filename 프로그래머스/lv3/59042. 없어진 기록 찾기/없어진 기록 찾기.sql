@@ -1,7 +1,3 @@
-
-SELECT*FROM ANIMAL_OUTS // 입양 테이블 전체 조회
-SELECT*FROM ANIMAL_INS //  보호 테이블 전체 조회
-
  방법 1: LIFT JOIN(on)
 
 SELECT A.ANIMAL_ID, A.NAME 
