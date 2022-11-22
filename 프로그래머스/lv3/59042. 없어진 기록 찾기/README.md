@@ -4,9 +4,9 @@
 
 ### 방법 요약
 
-## 1.LEFT JOIN
-## 2.RIGHT JOIN
-## 3.MINUS 연산자
+#### 1.LEFT JOIN
+#### 2.RIGHT JOIN
+#### 3.MINUS 연산자
 
 ### 구분
 
