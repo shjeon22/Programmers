@@ -2,9 +2,10 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/59046) 
 
-### 성능 요약
+### 정규 표현식 참고 
 
-메모리: 0.0 MB, 시간: 0.00 ms
+![정규 표현식](https://user-images.githubusercontent.com/107968231/203879381-997354f6-3426-4a3a-89e1-12aa6ce25643.jpg)
+![정규표현식2](https://user-images.githubusercontent.com/107968231/203879388-063e7afd-bbd0-4d5e-8351-c0c0e50b47c5.jpg)
 
 ### 구분
 
