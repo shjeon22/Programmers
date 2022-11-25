@@ -17,11 +17,13 @@ WHERE NAME IN ('Lucy', 'Ella', 'Pickle', 'Sabrina', 'Mitty')
 ORDER BY ANIMAL_ID ;
 
 
-3.참고@
+3.#참고 'LIKE'와 '=' 의 차이
 
 SELECT DISTINCT ANIMAL_ID,NAME,SEX_UPON_INTAKE 
 FROM ANIMAL_INS 
-WHERE NAME='Lucy' or NAME='Ella' or NAME='Pickle' or NAME='Rogan' or NAME='Sabrina' or NAME='Ella' ORDER BY     ANIMAL_ID;
+WHERE NAME='Lucy' or NAME='Ella' or NAME='Pickle' or NAME='Rogan' or NAME='Sabrina' or NAME='Ella' ORDER BY ANIMAL_ID;
+
+###설명
 like 는 비교하려는 대상이 두 개 이상일 때 사용가능합니다. 
 예를들어 name이 Lucy, Ella두 이름중 들어가 있는것을 비교 할땐 in을 쓰고
 비교 대상이 하나일때 즉, name이 lucy인지 알아보려할 땐 =을 씁니다.
