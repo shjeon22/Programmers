@@ -10,7 +10,7 @@
 - [SQL 고득점 Kit]![wwwww](https://user-images.githubusercontent.com/107968231/204421742-4b6f7c01-dd76-42b0-8016-a55358424bb0.jpg)
 
 
-![alt text](result.png)
+
 ------------------------
 ## SELECT
 
