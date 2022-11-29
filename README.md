@@ -7,7 +7,7 @@
 
 # Introduction
 프로그래머스 사이트에서 제공하는 SQL 고득점 Kit 문제 풀이 기록입니다.
-- [SQL 고득점 Kit](https://programmers.co.kr/learn/challenges)
+- [SQL 고득점 Kit]![wwwww](https://user-images.githubusercontent.com/107968231/204421742-4b6f7c01-dd76-42b0-8016-a55358424bb0.jpg)
 
 
 ![alt text](result.png)
