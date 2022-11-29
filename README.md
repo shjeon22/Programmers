@@ -5,6 +5,12 @@
 
 <출처> : [SQL고득점 KIT](https://programmers.co.kr/learn/challenges)
 
+# Introduction
+프로그래머스 사이트에서 제공하는 SQL 고득점 Kit 문제 풀이 기록입니다.
+- [SQL 고득점 Kit](https://programmers.co.kr/learn/challenges)
+
+
+![alt text](result.png)
 ------------------------
 ## SELECT
 
